@@ -22,9 +22,11 @@ print(f"La letra '{letra2}' aparece {textoUsuario.count(letra2)} veces")
 print(f"La letra '{letra3}' aparece " +
       ("ninguna vez" if conteo == 0 else "1 vez" if conteo == 1 else f"{conteo} veces"))
 
-total = textoUsuario.split()  # separa el texto en una lista de palabras
+total = textoUsuario.split()  
 print(len(total))
 print(textoUsuario[0])
 print(textoUsuario[-1])
 print(textoUsuario[::-1])
 print(textoUsuario.count('python'))
+palabraTexto = 'python' in textoUsuario
+print(palabraTexto)

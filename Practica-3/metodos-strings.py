@@ -4,7 +4,7 @@ print(frase.upper())
 
 lista_palabras = ["La","legibilidad","cuenta."]
  
-frase = " ".join(lista_palabras)
+frase = "-".join(lista_palabras)
  
 print(frase)
 

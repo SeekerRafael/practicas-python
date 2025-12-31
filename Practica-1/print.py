@@ -16,3 +16,10 @@ print(input("¿En qué país vives?"))
 
 print(input("Escribe tu nombre:")+" "+input("Escribe tu apellido:"))
 
+nombre = input("¿Cómo te llamas? ")
+edad = int(input("¿Cuántos años tienes? "))
+
+print("Hola", nombre)
+print("El próximo año tendrás", edad + 1, "años")
+
+
